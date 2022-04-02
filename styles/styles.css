@@ -1,0 +1,123 @@
+:root {
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --adress-hero-color: #FFFFFF;
+    --hover-color: #2196F3;
+    --logo-color: #000000, #2196F3;
+    --general-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --footer-bgc: #2F303A;
+    --section-command-bgc: #F5F4FA;
+}
+
+body {
+    color: var(--main-color);
+    font-family: var(--general-font);
+}
+
+a:hover {
+    background-color: var(--hover-color)
+}
+a:focus
+
+.head {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    
+    
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo .web {
+    color: #2196F3;
+}
+.logo .studio {
+    color: #000000;
+}
+
+.contacts .mail {
+    color: #2196F3;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    
+}
+
+.contacts .tel {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.soft-list {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+
+.soft-item {
+    color: var(--secondary-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+}
+
+.footer {
+    background-color: var(--footer-bgc);
+    
+}
+
+.adress {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.adress .map-link {
+    color: var(--adress-hero-color);
+}
+
+
+
+.adress .contacts {
+    
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--footer-contacts-color);
+    text-decoration: none;
+}
+
+.command {
+    background-color: var(--section-command-bgc)
+}
