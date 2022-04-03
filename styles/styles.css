@@ -22,7 +22,6 @@ body {
 }
 
 .head {
-    color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -32,18 +31,21 @@ body {
 }
 
 .head .link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-} 
-
-.head-contact {
-    text-decoration: none;
-    list-style-type: none;
+    color: var(--main-color);
 }
 
+.head .study:current {
+    color: var(--hover-color);
+}
+
+
 .head-contact .mail {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.head-contact .tel {
+    text-decoration: none;
     color: var(--secondary-color);
 }
 
@@ -92,6 +94,9 @@ body {
 
 .hero .title {
     color: var(--adress-hero-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
 }
 
 
@@ -102,7 +107,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    letter-spacing: 0.06em;
 }
 
 
@@ -247,5 +251,8 @@ body {
 }
 
 
+.head .study:current {
+    color: var(--hover-color);
+}
 
 
