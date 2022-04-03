@@ -103,6 +103,7 @@ body {
 
 
 .hero .button {
+    cursor: pointer;
     color: var(--adress-hero-color);
     background-color: var(--hover-color);
     font-family: var(--button-font-family);
@@ -237,6 +238,7 @@ body {
     list-style-type: none;
 }
 .button-filter .filter {
+    cursor: pointer;
     background-color: var(--section-command-bgc);
     font-family: var(--button-font-family);
     font-size: 16px;
