@@ -36,6 +36,7 @@ body {
 }
 
 .head {
+    color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -149,6 +150,7 @@ body {
 }
 
 .work {
+    color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -166,6 +168,9 @@ body {
     line-height: 1.71;
     
 }
+.adress-list {
+    list-style-type: none;
+}
 
 .adress .map-link {
     color: var(--adress-hero-color);
@@ -177,8 +182,52 @@ body {
     color: var(--footer-contacts-color);
     font-size: 14px;
     line-height: 1.71
+    
 }
+
 .adress .contacts:hover,
 .adress .contacts:focus {
     color: var(--hover-color);
+}
+
+/* Portfolio */
+.filter {
+    font-family: var(--button-font-family);
+    
+}
+/* .fiter-buttons {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    list-style-type: none; */
+} 
+.filter .all {
+    background-color: var(--section-command-bgc;
+    
+}
+
+.filter .web {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project {
+    color: var(--secondary-color);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }

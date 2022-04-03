@@ -4,89 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
     <title>Портфолио</title>
 </head>
 <body>
     <header>
-        <a href="">WebStudio</a>
+        <a class="logo" href="./index.html"><span class="logo web">Web</span><span class="logo studio">Studio</span></a>
         <nav>
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="head">
+                <li><a class="head link" href="./index.html">Студия</a></li>
+                <li><a class="head link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="head link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="head-contact">
+            <li><a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li><a href="tel:+380961111111">+380961111111</a></li>
+            <li><a class="tel href="tel:+380961111111">+380961111111</a></li>
         </ul>
     </header>
     <main>
         <section>
             <ul>
-                <li>
-                    <button type="button">Все</button>
+                <li class="filter">
+                    <button class="all" type="button">Все</button>
                 </li>
                 <li>
-                    <button type="button">Веб-сайты</button>
+                    <button type="web">Веб-сайты</button>
                 </li>
                 <li>
-                    <button type="button">Приложения</button>
+                    <button type="program">Приложения</button>
                 </li>
                 <li>
-                    <button type="button">Дизайн</button>
+                    <button type="design">Дизайн</button>
                 </li>
                 <li>
-                    <button type="button">Маркетинг</button>
+                    <button type="marketing">Маркетинг</button>
                 </li>
             </ul>
             <ul>
                 <li>
                     <img src="./images/techno.jpg" alt="технокряк" width="370" height="294">
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
+                    <h3 class project-title>Технокряк</h3>
+                    <p class="product">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/neworlean.jpg" alt="орлеан" width="370" height="294">
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
+                    <h3 class project-title>Постер New Orlean vs Golden Star</h3>
+                    <p class="product">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/seafood.jpg" alt="ресторан" width="370" height="294">
-                    <h3>Ресторан Seafood</h3>
-                    <p>Приложение</p>
+                    <h3 class project-title>Ресторан Seafood</h3>
+                    <p class="product">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/prime.jpg" alt="проект Prime" width="370" height="294">
-                    <h3>Проект Prime</h3>
-                    <p>Маркетинг</p>
+                    <h3 class="project-title">Проект Prime</h3>
+                    <p class="product">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/boxes.jpg" alt="проект boxes" width="370" height="294">
-                    <h3>Проект Boxes</h3>
-                    <p>Приложение/p>
+                    <h3 class="project-title">Проект Boxes</h3>
+                    <p class="product">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/inspiration.jpg" alt="нет границ" width="370" height="294">
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
+                    <h3 class project-title>Inspiration has no Borders</h3>
+                    <p class="product">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/limitedit.jpg" alt="limited edition" width="370" height="294">
-                    <h3>Издание Limited Edition</h3>
-                    <p>Дизайн</p>
+                    <h3 class="project-title">Издание Limited Edition</h3>
+                    <p class="product">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/lab.jpg" alt="проект lab" width="370" height="294">
-                    <h3>Проект LAB</h3>
-                    <p>Маркетинг</p>
+                    <h3 class="project-title">Проект LAB</h3>
+                    <p class="product">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/growbiz.jpg" alt="groving business width="370" height="294">
-                    <h3>Growing Business</h3>
-                    <p>Приложение</p>
+                    <h3 class="project-title">Growing Business</h3>
+                    <p class="product">Приложение</p>
                 </li>
             </ul>
         </section>
