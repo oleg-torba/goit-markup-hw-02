@@ -30,10 +30,13 @@ body {
     letter-spacing: 0.06em;
 }
 
+
 .hero .button:hover,
-.hero .button:focus {
-    background-color: var(--main-color);
+.hero .button:focus
+{
+    background-color: var(--secondary-color);
 }
+
 
 .head {
     color: var(--main-color);
@@ -191,32 +194,11 @@ body {
 }
 
 /* Portfolio */
-.filter {
-    font-family: var(--button-font-family);
-    
-}
-/* .fiter-buttons {
-    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    list-style-type: none; */
-} 
-.filter .all {
-    background-color: var(--section-command-bgc;
-    
-}
 
-.filter .web {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    list-style-type: none;
-}
+
+
+
+
 
 .project-title {
     font-weight: 700;
@@ -225,9 +207,35 @@ body {
     letter-spacing: 0.06em;
 }
 
-.project {
+.project-list {
+    list-style-type: none;
+}
+.product {
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.88;
+}
+
+.button-filter {
+    
+    list-style-type: none;
+}
+.button-filter .filter {
+    background-color: var(--section-command-bgc);
+    font-family: var(--button-font-family);
+    font-size: 16px;
+    line-height: 1.62;
     letter-spacing: 0.03em;
 }
+
+
+.filter:hover,
+.filter:focus,
+.filter:active {
+    color: var(--section-command-bgc);
+    background-color: var(--hover-color);
+}
+
+
+
+
