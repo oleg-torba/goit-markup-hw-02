@@ -30,12 +30,14 @@ body {
     text-decoration: none;
 }
 
-.head .link {
-    color: var(--main-color);
-}
 
 .head .study:current {
     color: var(--hover-color);
+}
+
+
+.head .link {
+    color: var(--main-color);
 }
 
 
