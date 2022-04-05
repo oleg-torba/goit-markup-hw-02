@@ -14,134 +14,121 @@
     --secondary-font: 'Raleway', sans-serif;
     --button-font-family: inherit;
 }
-    
+
 
 body {
     color: var(--main-color);
     font-family: var(--general-font), var(--secondary-font);
 }
 
-.head {
+/* Logo header footer */
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.web {
+    color: var(--second-logo-color);
+}
+
+.studio {
+    color: var(--first-logo-color);
+}
+
+.foot {
+    color: var(--adress-hero-color);
+}
+
+/* head */
+.header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+/* .header a {
+    cursor: pointer;
+} */
+.header .link {
+    color: var(--main-color);
+    list-style-type: none;
+    text-decoration: none;
+}
+.header .current,
+.header .link:hover,
+.header .link:focus {
+    color: var(--hover-color);
+}
+
+.current {
+    color: var(--main-color);
+    list-style-type: none;
+    text-decoration: none;
+}
+.current:current {
+    color: var(--hover-color);
+}
+
+.contact {
+    list-style-type: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    list-style-type: none;
-    text-decoration: none;
 }
 
 
-.head .study:current {
+
+.contact .link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.contact .link:hover,
+.contact .link:focus {
     color: var(--hover-color);
 }
 
 
-.head .link {
-    color: var(--main-color);
-}
-
-
-.head-contact .mail {
-    color: var(--secondary-color);
-    text-decoration: none;
-}
-
-.head-contact .tel {
-    text-decoration: none;
-    color: var(--secondary-color);
-}
-
-.head-contact .mail:hover,
-.head-contact .mail:focus {
-    color: var(--hover-color)
-}
-
-.head-contact .tel {
-    color: var(--secondary-color);
-}
-
-.head:hover,
-.head:focus {
-    color: var(--button-hover-bgc);
-}
-
-
-.logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
-
-.logo .web {
-    color: var(--second-logo-color);
-}
-
-.logo .studio {
-    color: var(--first-logo-color);
-}
-
-.logo .foot {
-    color: var(--adress-hero-color);
-}
+/* HERO */
 
 .hero {
     background-color: var(--hero-bgc);
     text-align: center;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 
-.hero .title {
+.first-title {
     color: var(--adress-hero-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 }
 
-.button {
-    cursor: pointer;
-}
-
+/* hero-button */
 .hero .button {
+    cursor: pointer;
     color: var(--adress-hero-color);
     background-color: var(--hover-color);
     font-family: var(--button-font-family);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
-
-
 
 .hero .button:hover,
 .hero .button:focus {
     background-color: var(--button-hover-bgc);
 }
 
-
-
-.soft {
-    list-style-type: none;
-}
-.soft .list {
-    font-weight: 700;
-    font-size: 14px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    list-style-type: none;
-}
-
-.soft .item {
-    color: var(--secondary-color);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-
+/* вторинні заголовки */
 .title {
     font-weight: 700;
     font-size: 36px;
@@ -149,117 +136,127 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 }
+/* преимущества */
+.soft {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+}
 
+.tech {
+    color: var(--secondary-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+/* image */
 .image {
     list-style-type: none;
 }
 
+
+/* команда */
 .command {
     background-color: var(--section-command-bgc);
-}
 
-.command-list {
+}
+.list {
     list-style-type: none;
 }
-
-.title-team {
+.team {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 .work {
-    color: var(--secondary-color);
     font-size: 16px;
-    line-height: 1.19;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
+/* footer */
 .footer {
     background-color: var(--footer-bgc);
-    
 }
 
 .adress {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    
-}
-.adress-list {
-    list-style-type: none;
 }
 
-.adress .map-link {
-    color: var(--adress-hero-color);
-    text-decoration: none;
-}
-
-
-.adress .contacts {
-    color: var(--footer-contacts-color);
-    font-size: 14px;
-    line-height: 1.71;
-    
-}
-
-.adress .contacts:hover,
-.adress .contacts:focus {
+.contacts:hover,
+.contacts:focus {
     color: var(--hover-color);
 }
 
 
 
+.contact-list {
+    list-style-type: none;
+} 
+
+.maplink {
+    color: var(--adress-hero-color);
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.maplink:hover {
+    color: var(--hover-color);
+}
+
+.contacts {
+    color: var(--footer-contacts-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+
 /* Portfolio */
 
-
-
-
-
-
-.project-title {
+.project-list {
+    list-style-type: none;
+}
+.project {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.project-list {
-    list-style-type: none;
-}
 .product {
     color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
 }
 
-.button-filter {
-    
+.buttons-list {
     list-style-type: none;
 }
-.button-filter .filter {
+.buttons {
     cursor: pointer;
     background-color: var(--section-command-bgc);
     font-family: var(--button-font-family);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
-
-.button-filter .filter:hover,
-.button-filter .filter:focus {
-    color: var(--section-command-bgc);
-    background-color: var(--button-hover-bgc);
+.buttons:hover,
+.buttons:focus {
+    background-color: var(--hover-color);
+    color: var(--adress-hero-color);
 }
-
-
-.head .study:current {
-    color: var(--hover-color);
-}
-
-
