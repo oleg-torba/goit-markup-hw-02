@@ -152,30 +152,35 @@ body {
     letter-spacing: 0.03em;
 }
 
-/* image */
+/* image
 .image {
     list-style-type: none;
-}
+} */
 
 
 /* команда */
 .command {
     background-color: var(--section-command-bgc);
+}
 
 }
+
 .list {
+    list-style-type: none;
+}
+
+.team {
+    font-weight: 500;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    list-style-type: none;
-}
-.team {
-    font-weight: 500;
 }
 
 .work {
     color: var(--secondary-color);
-    
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* footer */
