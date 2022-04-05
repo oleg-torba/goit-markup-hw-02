@@ -27,8 +27,8 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    text-decoration: none;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .web {
@@ -51,7 +51,7 @@ body {
     letter-spacing: 0.02em;
     list-style-type: none;
 }
-/* .header a {
+/* header. a {
     cursor: pointer;
 } */
 .header .link {
@@ -164,21 +164,18 @@ body {
 
 }
 .list {
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
     list-style-type: none;
 }
 .team {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .work {
-    font-size: 16px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+    
 }
 
 /* footer */
